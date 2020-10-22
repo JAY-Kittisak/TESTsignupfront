@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 
-class ShowDB extends Component {
+class InsertData extends Component {
   constructor() {
     super();
     this.state = {
@@ -111,4 +111,4 @@ class ShowDB extends Component {
   }
 }
 
-export default ShowDB;
+export default InsertData;

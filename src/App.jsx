@@ -1,15 +1,17 @@
 import React from 'react'
-import ShowData from './pages/ShowData'
+import InsertData from './pages/InsertData'
 import Profile from './components/Profile'
+import Navbar from './components/Navbar'
 
 function App() {
     return (
         <div>
-            <h1>111</h1>
-            <ShowData />
-            <Profile />
+            <Navbar />
+            <br></br>
+            <InsertData />
+           <Profile />
         </div>
-    )
+    ) 
 }
 
 export default App

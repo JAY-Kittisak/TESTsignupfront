@@ -1,0 +1,2 @@
+//GET http://localhost:4700/app/mytables/5f9102479119ac3aa49dcf1f HTTP/1.1
+GET http://localhost:4700/app/mytables HTTP/1.1
